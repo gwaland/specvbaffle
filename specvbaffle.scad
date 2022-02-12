@@ -51,7 +51,7 @@ cylinder(h = 20, d = 3, $fn=60,center = true);
 }
 }
 }
-
+rotate([180,0,0])
 difference(){
     union(){
         difference(){
